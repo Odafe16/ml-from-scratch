@@ -24,7 +24,7 @@ Achieved test accuracy comparable to `scikit-learn`'s `LogisticRegression` on th
 ## How to Run
 
 1. Open `Rock_vs_Mine_Prediction_FromScratch.ipynb` in Jupyter or Google Colab.
-2. Upload `sonar_data.csv` to the same environment (in Colab: to `/content/`).
+2. Import `sonar_data.csv`.
 3. Run the cells top to bottom — each one is a self-contained building block (sigmoid → cost → gradients → training loop → evaluation).
 4. Experiment: change `learning_rate` and `num_iterations` in the training cell and re-run to see how convergence changes.
 
