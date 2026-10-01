@@ -23,7 +23,7 @@ Achieved test accuracy comparable to `scikit-learn`'s `SVC(kernel='linear')` on 
 ## How to Run
 
 1. Open `Diabetes_Prediction_FromScratch.ipynb` in Jupyter or Google Colab.
-2. Upload `diabetes.csv` to the same environment (in Colab: to `/content/`).
+2. Import the diabetes.csv.
 3. Run the cells top to bottom.
 4. Experiment: change `C` (regularization strength), `learning_rate`, and `num_iterations` in the training cell and re-run to see how they affect convergence and test accuracy.
 
